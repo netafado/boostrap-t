@@ -1,0 +1,15 @@
+body {
+  background-color: primary;
+  color: #413504;
+}
+body .main {
+  zoom: 1;
+}
+body .main:after,
+body .main:before {
+  content: "";
+  display: table;
+}
+body .main:after {
+  clear: both;
+}
